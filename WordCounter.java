@@ -2,7 +2,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * Keep a record of how many times each word was entered by users.
+ * Keep a record of how many times each word was entered by users
+ * During a session
+ * 
+ * <p>It uses a HashMap to associate each word with its usage count.</p>
  * 
  * @author  Michael Kölling and David J. Barnes
  * @version 7.0

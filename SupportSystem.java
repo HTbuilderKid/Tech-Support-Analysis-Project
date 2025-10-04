@@ -20,7 +20,8 @@ public class SupportSystem
     private WordCounter counter;
     
     /**
-     * Creates a technical support system.
+     * Creates a new SupportSystem with an InputReader,
+     * a Responder, and a WordCounter.
      */
     public SupportSystem()
     {

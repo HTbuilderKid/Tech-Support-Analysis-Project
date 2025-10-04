@@ -6,6 +6,9 @@ import java.util.Scanner;
  * The text typed by a user is then chopped into words, and a set of words 
  * is provided.
  * 
+ * <p>Each input line is broken into words and returned as 
+ * a set of lowercase strings.</p>
+ * 
  * @author  Michael Kölling and David J. Barnes
  * @version 7.3
  */
