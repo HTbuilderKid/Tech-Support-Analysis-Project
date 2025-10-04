@@ -58,6 +58,10 @@ public class Responder
         // we cannot think of anything else to say...)
         return pickDefaultResponse();
     }
+    
+    public HashMap<String, String> getResponseMap() {
+        return responseMap;
+    }
 
     /**
      * Enter all the known keywords and their associated responses

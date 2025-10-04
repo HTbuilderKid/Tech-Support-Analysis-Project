@@ -20,7 +20,7 @@ public class WordCounter
         counts = new HashMap<>();
     }
     
-    public void printWordCounter()
+    public void printWordCounts()
     {
         for (String word : counts.keySet()) {
             int count = counts.get(word);
