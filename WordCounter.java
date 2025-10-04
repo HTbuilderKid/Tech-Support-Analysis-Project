@@ -20,6 +20,14 @@ public class WordCounter
         counts = new HashMap<>();
     }
     
+    public void printWordCounter()
+    {
+        for (String word : counts.keySet()) {
+            int count = counts.get(word);
+            System.out.println(word + ": " + count);
+        }
+    }
+    
     /**
      * Update the usage count of all words in input.
      * @param input A set of words entered by the user.
