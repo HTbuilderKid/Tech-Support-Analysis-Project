@@ -20,11 +20,13 @@ public class WordCounter
         counts = new HashMap<>();
     }
     
-    public void printWordCounts()
+    public void printWordCounts(HashMap<String, String> responseMap)
     {
         for (String word : counts.keySet()) {
-            int count = counts.get(word);
-            System.out.println(word + ": " + count);
+            if (!responseMap.containsKey(word)) {
+                int count = counts.get(word);
+                System.out.println(word + ": " + count);
+            }
         }
     }
     
